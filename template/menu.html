@@ -1,0 +1,8 @@
+<span ng-repeat="link in Menu.getMenu()">
+  <a class="mdl-navigation__link" href="#{{ link.path }}">
+    <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">
+      {{ link.icon }}
+    </i>
+    {{ link.text }}
+  </a>
+</span>

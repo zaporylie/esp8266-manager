@@ -1,0 +1,6 @@
+test
+<md-item ng-repeat="(key, item) in data()">
+  <md-item ng-repeat="field in item.fields">
+    {{ field.title }}: {{ field.value }}
+  </md-item>
+</md-item>
